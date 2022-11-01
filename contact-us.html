@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/Images/horseflavicon.jpg">
+    <title>Contact us | Schoeman Sejwane Grobler Inc</title>
+</head>
+
+<body>
+    <header>
+        <a href="index">
+            <img src="/Images/NEWLOGOHORSE.png" width="400" alt="logo"></a>
+        <div class="width">&nbsp;</div>
+
+        <div class="topnav" id="myTopnav">
+            <a href="index">Home</a>
+            <a href="about-us">About us</a>
+            <a href="deceased-estates">Deceased estates</a>
+            <a href="wills">Wills</a>
+            <a href="blog">Blog</a>
+            <a href="contact-us" class="active">Contact us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+    </header>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+
+
+
+
+    <!--About us bar-->
+    <div class=" div-box" id="grad">
+        <h1 class="About-us-contact">Contact us</h1>
+
+    </div>
+    <br>
+
+
+
+    <div class="move-map">
+        <iframe src="https://embed.waze.com/iframe?zoom=17&lat=-26.129997&lon=27.901043&ct=livemap" width="600"
+            height="450" allowfullscreen></iframe>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="container1">
+        <form action="https://formspree.io/f/mayvledl" method="POST">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="lname">Email:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="w3review">Message:</label>
+            <textarea id="subject" name="subject"></textarea>
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+    <br>
+    <div class="contact-us-icons">
+        <div><img src="/Images/icons8-cellphone-64.png" alt="cellphone">
+
+            <p class="cellphone">082 651 8534</p>
+
+
+
+        </div>
+
+        <br>
+        <div> <img src="Images/icons8-post-box-50.png" alt="postbox">
+            <p class="pobox">P.O Box 2233 Florida Hills 1710</p>
+        </div>
+
+        <br>
+        <div> <img src="Images/icons8-office-phone-50.png" alt="office-phone">
+            <p class="offphone">010 023 4033</p>
+        </div>
+
+        <br>
+        <div> <img src="Images/icons8-location-50.png" alt="location">
+            <p class="loca">Regus Business Centre, Ground Floor - Building 3, Clearwater Office Park,
+                cnr. Millennium & Christiaan de Wet Road, Roodepoort</p>
+        </div>
+    </div>
+
+
+
+    <div class="width3-contact">
+        &nbsp;
+    </div>
+    <footer>
+        <div class="content">
+            <div class="left box">
+                <div class="topic"><span class="und-footer">Contact S</span>SG Attorneys</div>
+                <p class="und-footer">Regus Business Centre, Ground Floor - Building 3, Clearwater Office Park,
+                    cnr. Millennium & Christiaan de Wet Roads, Roodepoort</p>
+                <p class="und-footer">Ph. : +27 11 023 4033</p>
+                <p class="und-footer">schoemanp@mweb.co.za</p>
+
+
+            </div>
+
+            <div class="right box">
+                <div class="topic">Email us</div>
+                <form action="https://formspree.io/f/mzboolwv" method="POST">
+                    <label>
+                        <input type="email" placeholder="Enter email address" name="email">
+                    </label>
+                    &nbsp;
+                    <p style="font-size: x-large">Message</p>
+
+                    <label>
+
+                        <textarea name="message" placeholder=" Write a description..."></textarea>
+                    </label>
+                    <input type="submit" name="submit" value="Send">
+                    <div class="media-icons">
+                        <a href="https://www.facebook.com/schoemansejwanegroblerinc/"><i
+                                class="fab fa-facebook-f"></i></a>
+
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+        <div class="bottom">
+            <p>Development by Schoeman</p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
